@@ -32,7 +32,15 @@
     border: 1px solid white;
     min-height: 50px;
 }
-
+.bianco{
+    color: var(--text-white);
+}
+.grigio{
+    color: var(--text-grey);
+}
+li{
+    list-style-type: none;
+}
 body {
     font-family: 'Montserrat', sans-serif;
 }
