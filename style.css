@@ -18,18 +18,23 @@
 .justify-center{
     justify-content: center;
 }
-.justify-end{
-    justify-content: flex-end;
+.justify-start{
+    display: flex;
+    justify-content: flex-start;
 }
+
 .debug {
-    border: 1px sollid black;
+    border: 1px solid white;
     min-height: 50px;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
+.cerchio{
+    border-radius: 50%;
+    /* sistemare qui */
+}
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -46,7 +51,6 @@ body {
     background-color: var(--bluscuro);
     overflow: hidden;
 }
-
 .inner-content {
     overflow-y: auto;
     height: 100%;
@@ -82,4 +86,7 @@ aside {
     right: 30px;
     top: 5px;
     font-size: 10px;
+}
+.padding{
+    padding: 10px;
 }
