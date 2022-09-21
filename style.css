@@ -1,52 +1,62 @@
 :root{
-
+    --nero-100: rgba(0, 0, 0, 1);
+    --black-opacity: rgba(0, 0, 0, 0.5);
+    --bluscuro: rgba(20, 25, 34, 1);
+    --grigioscuro: rgba(40, 40, 40, 1);
+    --text-white: rgba(255, 255, 255, 1);
+    --text-grey: rgba(113, 113, 113, 1);
+    --lime-green: rgba(173, 255, 47, 1);
 }
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.debug{
-    border: 1px solid black;
+.debug {
+    border: 1px sollid black;
     min-height: 50px;
 }
 
-/* body {
-    font-family:;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
-*/
-.wrapper{
+
+.wrapper {
     width: 100%;
     height: 100vh;
     background-color: black;
 }
-main{
+main {
     width: 100%;
     height: calc(100vh - 95px);
+    display: flex;
+    
 }
-.main-content{
+.main-content {
     width: calc(100% - 230px);
     height: 100%;
-    background-color: yellow;
-
+    background-color: var(--bluscuro);
+    /* overflow: auto; */
 }
-.inner-content{
+.inner-content {
     overflow-y: auto;
+    height: 100%;
 }
-.playbar{
+.playbar {
     width: 100%;
     height: 95px;
-    background-color: red;
-    position: fixed;
-    bottom: 0;
+    background-color: var(--grigioscuro);
 }
-nav{
+nav {
     width: 230px;
     height: 100%;
-    background-color: green;
+    background-color: var(--nero-100);
 }
-aside{
+aside {
     width: 100%;
     height: 95px;
     background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
