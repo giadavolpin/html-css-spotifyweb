@@ -115,3 +115,22 @@ aside {
     }
 
 }
+@media screen and (max-width: 600) {
+    .main{
+        min-width: 550px;
+    }
+    .main-content{
+        width: calc(100% - 230px);
+        height: 100%;
+    }
+    .cards {
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+    }
+    
+}
