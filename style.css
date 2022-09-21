@@ -100,9 +100,16 @@ aside {
     .main{
         max-width: 650px;
     }
+    .main-content{
+
+    }
     .cards {
         display: flex;
         flex-flow: row wrap;
         
     }
+    .wrapper{
+        
+    }
+
 }
