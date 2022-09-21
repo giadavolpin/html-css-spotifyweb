@@ -1,0 +1,52 @@
+:root{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+/* body {
+    font-family:;
+}
+*/
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+main{
+    width: 100%;
+    height: calc(100vh - 95px);
+}
+.main-content{
+    width: calc(100% - 230px);
+    height: 100%;
+    background-color: yellow;
+
+}
+.inner-content{
+    overflow-y: auto;
+}
+.playbar{
+    width: 100%;
+    height: 95px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+}
+nav{
+    width: 230px;
+    height: 100%;
+    background-color: green;
+}
+aside{
+    width: 100%;
+    height: 95px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
