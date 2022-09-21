@@ -22,7 +22,12 @@
     display: flex;
     justify-content: flex-start;
 }
-
+.wrap{
+    flex-wrap: wrap;
+}
+.flexi{
+    flex-flow: row wrap;
+}
 .debug {
     border: 1px solid white;
     min-height: 50px;
@@ -89,4 +94,15 @@ aside {
 }
 .padding{
     padding: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .main{
+        max-width: 650px;
+    }
+    .cards {
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
 }
