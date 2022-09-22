@@ -120,6 +120,18 @@ img{
 .margin-bot{
     margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 700px) {
     .main{
         min-width: 650px;
@@ -149,7 +161,4 @@ img{
     nav{
         width: 45px;
     }
-  
-    
-    
 }
