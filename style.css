@@ -47,6 +47,7 @@ body {
 }
 .cerchio{
     border-radius: 50%;
+    overflow: hidden;
     /* sistemare qui */
 }
 .wrapper {
@@ -107,6 +108,9 @@ aside {
 }
 .padding{
     padding: 10px;
+}
+.p-left{
+    padding-left: 10px;
 }
 .center{
     text-align: center;
