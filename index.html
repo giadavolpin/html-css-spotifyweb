@@ -8,13 +8,46 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
     <title>Spotify</title>
 </head>
 <body>
     
         <div class="wrapper">
             <main class="main">
-                <nav></nav>
+               <!-- barra laterale nav -->
+                <nav> 
+                    <img class="logo padding" src="./img/logo.svg" alt="">
+                    <ul>
+                        <li class="bianco">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </li>
+                        <li class="grigio">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Cerca
+                        </li>
+                        <li class="grigio">
+                            <i class="fa-thin fa-books"></i>
+                            La tua libreria
+                        </li>
+                    </ul>
+                    <h1 class="bianco p-left">Playlist</h1>
+                    <ul>
+                        <li class="grigio">
+                            <i class="fa-sharp fa-solid fa-square-plus"></i>
+                            Crea Playlist
+                        </li>
+                        <li class="grigio">Nome Playlist</li>
+                        <li class="grigio">Nome Playlist</li>
+                        <li class="grigio">Nome Playlist</li>
+                        <li class="grigio">Nome Playlist</li>
+                        <li class="grigio">Nome Playlist</li>
+                        <li class="grigio">Nome Playlist</li>
+                        <li class="grigio">Nome Playlist</li>
+                    </ul>
+                </nav>
+
                 <section class="main-content">
                     <aside class="">
                     <!-- bottone da correggere quando è sotto i 552px ..small  -->
@@ -25,7 +58,7 @@
                         <div class="nav">
                             <ul class="d-flex flexi grigio">
                                 <li>IN EVIDENZA</li>
-                                <li> PODCAST</li>
+                                <li>PODCAST</li>
                                 <li>CLASSIFICHE</li>
                                 <li>GENERI E MOOD</li>
                                 <li>NUOVE USCITE</li>
@@ -86,11 +119,11 @@
                         <div class="cards d-flex justify-start margin">
                             <div class="card padding">
                                     <img src="./img/radar.jpeg" alt="">
-                                    <h4 class="bianco padding">Release Radar</h4>
+                                    <h4 class="bianco padding center">Release Radar</h4>
                             </div>
                             <div class="card padding">
                                     <img src="./img/mixdaily.jpeg" alt="">
-                                    <h4 class="bianco padding">Dally Mix 1</h4>
+                                    <h4 class="bianco padding center">Dally Mix 1</h4>
                             </div>
                         </div>
                        
@@ -101,11 +134,11 @@
                         <div class="debug cards d-flex justify-start">
                             <div class="debug card cerchio">
                                     <img src="./img/youg.jpeg" alt="">
-                                    <h4 class="bianco">Lana del Rey</h4>
+                                    <h4 class="bianco center">Lana del Rey</h4>
                             </div>
                             <div class="debug card cerchio">
                                     <img src="./img/einaudi.jpeg" alt="">
-                                    <h4 class="bianco">Ludovico Einaudi</h4>
+                                    <h4 class="bianco center">Ludovico Einaudi</h4>
                             </div>
                         </div>   
                     </section>
