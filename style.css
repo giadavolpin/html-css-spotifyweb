@@ -22,11 +22,17 @@
     display: flex;
     justify-content: flex-start;
 }
+.justify-between{
+    justify-content: space-between;
+}
 .wrap{
     flex-wrap: wrap;
 }
 .flexi{
     flex-flow: row wrap;
+}
+.row{
+    flex-direction: row;
 }
 .debug {
     border: 1px solid white;
@@ -82,7 +88,9 @@ nav {
 }
 .card{
     width: calc(100% / 6);
-
+}
+.wid{
+    width: 40px;
 }
 aside {
     width: 100%;
@@ -105,6 +113,9 @@ aside {
     right: 30px;
     top: 5px;
     font-size: 10px;
+}
+.border{
+    border-bottom: 1px solid var(--text-grey); 
 }
 .padding{
     padding: 10px;
