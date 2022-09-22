@@ -34,6 +34,9 @@
 .row{
     flex-direction: row;
 }
+.line{ /* sistemare qui */
+    line-height: middle;
+}
 .debug {
     border: 1px solid white;
     min-height: 50px;
