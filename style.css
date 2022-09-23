@@ -162,10 +162,23 @@ h5, h4{
     padding: 7.5px;
     display: none;
 }
-
-
-
-
+.m-top-25{
+    margin-top: 25px;
+}
+.m-top-10{
+    margin-top: 10px;
+}
+#p-circle{
+    width: 25px;
+    height: 25px;
+    /* non mi prende la grandezza */
+}
+.up-bar{
+    height: calc(100% - 80px);
+}
+.down-bar-80{
+    height: 80px;
+}
 
 
 
