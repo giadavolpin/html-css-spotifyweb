@@ -214,7 +214,7 @@ h5, h4{
         min-width: 550px;
     }
     nav{
-        width: 45px;
+        max-width: 50px;
     }     
     .logo-small:hover{
         display: block;
@@ -223,17 +223,17 @@ h5, h4{
     .logo:hover{
         display: none;
     }
-    .open{
+    .open{ /* icone */
         display: block;
     }
     .open:hover{
-        display: none;
+       text-align: center;
     }
-    .close{
+    .close{ /* testi */
         display: block;
     }
     .close:hover{
-        display: block;
+        display: none;
     }
     
  }
