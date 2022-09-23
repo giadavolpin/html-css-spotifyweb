@@ -17,27 +17,26 @@
             <main class="main">
                <!-- barra laterale nav -->
                 <nav> 
-                   <div class="logo padding"> 
-                    <img class="" src="./img/logo.svg" alt="">
-                   </div> 
-                  <!-- hover e none -->
-                  <div>
+                    <div class="logo padding"> 
+                        <img class="" src="./img/logo.svg" alt="">
+                    </div> 
+                    <div>
                         <div class="logo-small">
                                 <img src="./img/logo-small.svg" alt="">
                         </div>
                         <div class="up-bar">
                             <ul>
                                 <li class="bianco">
-                                    <i class="fa-solid fa-house"></i>
-                                    <span>Home</span> 
+                                    <span class="open close"><i class="fa-solid fa-house"></i></span>
+                                    <span class="open">Home</span> 
                                 </li>
                                 <li class="grigio">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                        <span>Cerca</span>
+                                        <span class=""><i class="fa-solid fa-magnifying-glass"></i></span>
+                                        <span class="">Cerca</span>
                                 </li>
                                 <li class="grigio">
-                                        <i class="fa-thin fa-books"></i>
-                                        <span>La tua libreria</span> 
+                                        <span class=""><i class="fa-solid fa-book-open"></i></span>
+                                        <span class="">La tua libreria</span> 
                                 </li>
                             </ul>
                             <div class="bianco p-left font">Playlist</div>
@@ -58,12 +57,17 @@
                         </div>
                     </div>
                  <!-- non mi prende le 2 icone -->
-                    <div class="down-bar-80">
-                        <i class="fa-regular fa-circle-arrow-down"></i>
-                        <h2 class="grigio border font padding">Installa app</h2>
-                        <i class="fa-solid fa-user"></i>
-                        <h2 class="bianco padding">John Doe</h2>
-                    </div>
+                    <div class="down-bar-80 d-flex">
+                        <div class="d-flex b-down grigio line">
+                            <i class="fa-solid fa-circle-arrow-down padding line"></i>
+                            <h2 class="font padding line">Installa app</h2>
+                        </div>
+                  <!-- controllare qui + aggiungere border grigio  -->
+                        <div class="d-flex">    
+                            <i class="fa-solid fa-user grigio d-flex row"></i>
+                            <h2 class="bianco padding font">John Doe</h2>
+                        </div>
+                    </div> 
                 </nav>
 
                 <section class="main-content">
@@ -74,13 +78,13 @@
                     
                     <section class="inner-content"> 
                         <div class="nav">
-                            <ul class="d-flex flexi grigio">
-                                <li>IN EVIDENZA</li>
-                                <li>PODCAST</li>
-                                <li>CLASSIFICHE</li>
-                                <li>GENERI E MOOD</li>
-                                <li>NUOVE USCITE</li>
-                                <li>SCOPRI</li>
+                            <ul class="d-flex flexi grigio big-text">
+                                <li>In evidenza</li>
+                                <li>Podcast</li>
+                                <li>Classifiche</li>
+                                <li>Generi e mood</li>
+                                <li>Nuove uscite</li>
+                                <li>Scopri</li>
                             </ul>
                         </div>
                         <div class="bianco padding">

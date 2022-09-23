@@ -37,8 +37,12 @@
 .column{
     flex-direction: column;
 }
+.big-text {
+    text-transform: uppercase;
+}
 .line{ /* sistemare qui */
     line-height: middle;
+
 }
 .debug {
     border: 1px solid white;
@@ -123,9 +127,6 @@ aside {
     top: 5px;
     font-size: 10px;
 }
-.border{
-    border-bottom: 1px solid var(--text-grey); 
-}
 .padding{
     padding: 10px;
 }
@@ -179,9 +180,9 @@ h5, h4{
 .down-bar-80{
     height: 80px;
 }
-
-
-
+.b-down{
+    border-bottom: 1px solid var(--text-grey);
+}
 
 
 
@@ -222,4 +223,17 @@ h5, h4{
     .logo:hover{
         display: none;
     }
+    .open{
+        display: block;
+    }
+    .open:hover{
+        display: none;
+    }
+    .close{
+        display: block;
+    }
+    .close:hover{
+        display: block;
+    }
+    
  }
