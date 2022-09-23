@@ -66,6 +66,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: black;
+    overflow: hidden;
 }
 .main {
     width: 100%;
@@ -153,7 +154,15 @@ h5, h4{
 .logo{
     width: 150px;
     margin: 0 auto;
+    display: block;
 }
+.logo-small{
+    width: 35px;
+    height: 35px;
+    padding: 7.5px;
+    display: none;
+}
+
 
 
 
@@ -192,5 +201,12 @@ h5, h4{
     }
     nav{
         width: 45px;
+    }     
+    .logo-small:hover{
+        display: block;
+        cursor: pointer;
     }
-}
+    .logo:hover{
+        display: none;
+    }
+ }
