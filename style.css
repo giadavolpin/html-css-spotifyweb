@@ -236,15 +236,25 @@ h5, h4{
     .close{ /* testi */
         display: none;
     }
-    li{
+    .paddi-0{
         padding: 0;
+    }
+    .paddi-10{
+        padding: 10px;
     }
     .nav{
         font-size: 10px;
-        
     }
     .btn-bianco{
        padding: 8px;
        margin: 0; 
     }
+    .end{
+      /* far vedere da sotto le icone */
+    }
+    .playbar{
+        height: 90px;
+        padding: 0;
+    }
+
  }
